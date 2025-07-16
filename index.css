@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    height: 90vh;
+    background-image: url("bcburger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.main .inhome h5{
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 4px 8px;
+
+}
+.main .inhome h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.main .inhome button{
+    background-color: red;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.inhome button a{
+    text-decoration: none;
+    color: white;
+}
+.add{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+.add .gf{
+    width:250px;
+    text-align: center;
+    padding: 10px;
+
+}
+.add .gf h3{
+    
+    color: white;
+}
+.add .gf img{
+    transition: all 0.5s ease-in-out;
+}
+.add .gf img:hover{
+    transform: scale(1.1);
+
+
+}
+.had{
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+.iteminn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.iteminn .food{
+    width: 400px;
+   text-align: center;
+    padding: 10px;
+}
+.food img{
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+.food h3{
+    color: black;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.food img:hover{
+    transform: rotate(25deg);
+}
+.iteminn a{
+    text-decoration: none;
+    padding: 4px 8px;
+    color: red;
+    border: 2px solid red;
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
+}
+.iteminn a:hover{
+    background-color: red;
+    color: white;
+}
+.contant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+.contant h4{
+    background-color: red;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.contant h1{
+    letter-spacing: 2px;
+}
+.contant1{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-image:url(bcburger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+
+    
+    
+}
+.contant1 a{
+    text-decoration: none;
+    padding: 4px 8px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.contant1 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.contant3{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-image:url(WhatsApp\ Image\ 2025-07-14\ at\ 17.53.22_ca66675f.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.contant3 a{
+    text-decoration: none;
+    padding: 4px 8px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contant3 a:hover{
+    background-color: white;
+    color: black;
+}
+.contant4{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-image:url(WhatsApp\ Image\ 2025-07-14\ at\ 17.53.23_0907d326.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.contant4 a{
+    text-decoration: none;
+    padding: 4px 8px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contant4 a:hover{
+    background-color: white;
+    color: black;
+}
+.contant #new{
+    margin: 10px;
+    width: 300px;
+    transition: all 0.8s ease-in-out;
+}
+.contant #new:hover{
+    transform: scale(1.1);
+}
+.contant #new h1{
+    font-size: 20px;
+}
+
+ #vi video{
+    border-radius: 25px;
+}
+.infomation i{
+ font-size: 50px;
+}
+
+/* ..................................... footer ............................................... */
+.time{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+ .time i{
+    padding-top: 10px;
+ }
+ .infomation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+ }
+  .infomation .info1{
+    width: 400px;
+ } 
+ .infomation .info2{
+    padding-top: 50px;
+ }
+ .end{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .end1 h1{
+    color: white;
+    padding: 20px;
+ }
+ .end2 a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 10px;
+    transition: all 0.5s ease-in-out;
+ }
+ .end2 a:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+ }
+ .copy{
+    padding: 10px;
+ }
+ @media (max-width :769px){
+    .contant2 video{
+        width: 300px;
+    }
+    .info2 iframe{
+        width: 320px;
+    }
+    .end1 h1{
+        font-size: 20px;
+    }
+    .copy p{
+        font-size: 15px;
+    }
+ }

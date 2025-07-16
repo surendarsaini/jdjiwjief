@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+.shop h1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: white;
+}
+.out{
+     background-image: url("hero_inner_page.jpg");
+    height: 40vh;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.out a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 768px) {
+    .outer .shop i{
+        font-size: 30px;
+    }
+    .outer .shop h1{
+        font-size: 30px;
+    }
+    .info2 iframe{
+        width: 320px;
+    }
+
+    
+}
+.showing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.showing #a1{
+    
+    width: 200px;
+    padding: 6px 10px;
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+.main .card1{
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+
+
+}
+.main .card1 img{
+    width: 200px;
+    height: 200px;
+}
+.card1 a{
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    color:black;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 4px 8px;
+    transition: all 0.5s ease-in-out;
+}
+.card1 a:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+.main .card1:hover{
+    transform: scale(1.1);
+}
+.infomation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: black;
+ }
+  .infomation .info1{
+    width: 400px;
+ } 
+ .infomation .info2{
+    padding-top: 50px;
+ }
+ .end{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .end1 h1{
+    color: white;
+    padding: 20px;
+ }
+ .end2 a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 10px;
+    transition: all 0.5s ease-in-out;
+ }
+ .end2 a:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+ }
+ .copy{
+    padding: 10px;
+ }
+ .time{
+    color: white;
+ }
+ .time{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+ .time i{
+    padding-top: 10px;
+ }
+ .infomation i{
+ font-size: 50px;
+}
+
