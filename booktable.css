@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: aqua;
+    height: 90vh;
+    background-image:url("pexels-viktoria-alipatova-1083711-2074130.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.table .book{
+    text-align: center;
+    
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.book h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: white;
+}
+.book .form input{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.book .select1 {
+     width: 90%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+.book button{
+    padding: 8px 12px;
+    margin: 3px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid red;
+
+}
+.book button:hover{
+    background: none;
+    border: 1px solid red;
+    color: white;
+}
+.book a{
+    font-size: 20px;
+    padding: 4px 8px;
+    text-decoration: none;
+    background-color: white;
+    color: red;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+}
+.back #backend{
+    width: 80%;
+    background-color: red;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+.back #backend h1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    padding: 10px;
+}
+.back #backend p{
+    padding: 5px;
+    color: white;
+}
+.back #backend h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+@media (max-width :768px){
+    .book button{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
