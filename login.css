@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height:100vh;
+    background-image: url("ella-olsson-oPBjWBCcAEo-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login .log{
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+
+
+
+}
+.log h1{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+}
+.log input{
+    width: 60%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    border: none;
+    
+}
+.log button{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 4px 8px;
+    margin: 10px;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+.log button:hover{
+    color: red;
+    background: none;
+}
+.log a{
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+.log a:hover{
+    background-color: red;
+    color: white;
+}
