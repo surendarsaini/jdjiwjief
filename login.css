@@ -21,7 +21,7 @@ body{
 }
 .login .log{
     text-align: center;
-    width: 70%;
+    width: 90%;
     padding: 10px;
 
 
@@ -35,13 +35,16 @@ body{
 
 }
 .log input{
-    width: 60%;
+    width: 55%;
     margin: 10px;
     border-radius: 10px;
     height: 40px;
     outline: none;
     border: none;
     
+}
+.form input{
+    width: 55%;
 }
 .log button{
     border: 1px solid red;
@@ -76,4 +79,9 @@ body{
 .log a:hover{
     background-color: red;
     color: white;
+}
+@media(max-width :768px){
+    .form input{
+        width: 85%;
+    }
 }

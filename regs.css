@@ -36,7 +36,7 @@ body{
     
 }
 .for input{
-    width: 50%;
+    width: 85%;
     height: 40px;
     border-radius: 8px;
     outline: none;
@@ -79,6 +79,6 @@ body{
 }
 @media (max-width :768px){
     .for button{
-        letter-spacing: 1px;
+        letter-spacing: 0px;
     }
 }
